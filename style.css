@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/background/Untitled.png);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+#sidebar {
+  padding: 0 10%;
+}
+
+.primary-color {
+  color: #9acac8;
+}
+
+.secondary-color {
+  color: #eba782;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  border-left: 5px solid #e6cdc0;
+  padding-left: 2%;
+}
+
+.section-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.sub-section-title {
+  font-size: 35px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding: 5% 0 5%;
+}
+
+.hero-content {
+  width: 50%;
+}
+
+.hero-content img {
+  max-width: 80%;
+}
+
+.button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: #eba782;
+}
+
+.margin-overlap {
+  margin-top: -20px;
+  padding-right: 20px;
+}
+
+.overview-section {
+  padding-bottom: 8%;
+}
+
+#overview-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.overview-item {
+  padding: 2% 2%;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.overview-item img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.background-color-1 {
+  background-color: #9acac881;
+}
+
+.background-color-2 {
+  background-color: #eba78281;
+}
+
+.background-color-3 {
+  background-color: #fcc36881;
+}
+
+.design-section {
+  padding-bottom: 10%;
+}
+
+.design-item-1 {
+  width: 30%;
+}
+
+.design-item-2 {
+  width: 60%;
+  padding-left: 8%;
+}
+
+.design-item-1 img {
+  max-width: 110%;
+  border-radius: 40px;
+}
+
+.design-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photography-section {
+  padding-bottom: 10%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.photography-item-2 {
+  width: 30%;
+}
+
+.photography-item-1 {
+  width: 60%;
+  padding-right: 8%;
+}
+
+.photography-item-2 img {
+  max-width: 110%;
+  border-radius: 40px;
+}
+
+.photography-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(2, 1, 19);
+  color: rgb(189, 189, 189);
+  text-align: center;
+  padding: 3% 0;
+}
+footer p {
+  font-size: medium;
+}
+
+footer h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contact-me {
+  text-align: center;
+  padding: 0 10% 5%;
+}
+
+.iinput {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.bbutton {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

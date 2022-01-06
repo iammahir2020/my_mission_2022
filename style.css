@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(images/background/Untitled.png);
+  background-image: url(images/background/bg1.png);
   background-attachment: fixed;
   background-size: cover;
   font-family: "Montserrat", sans-serif;
@@ -37,7 +37,7 @@ body {
 }
 
 .bold-text {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .hero-section {
@@ -123,6 +123,7 @@ body {
 }
 
 .design-item-2 {
+  margin-top: -25px;
   width: 60%;
   padding-left: 8%;
   background-image: url(images/shapes/shape-1.png);
@@ -191,14 +192,23 @@ footer h1 {
   padding: 0 10% 5%;
 }
 
-.input-field {
+.message-field {
+  width: 30%;
+  padding: 12px 20px 100px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #d37a4a;
+}
+
+.email-field {
   width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 1px solid #d37a4a;
 }
 .submit-button {
-  width: 20%;
+  width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   border-radius: 5px;
@@ -223,6 +233,7 @@ footer h1 {
   max-width: 32%;
   padding: 0 4px;
 }
+
 .column img {
   margin-top: 8px;
   vertical-align: auto;

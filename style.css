@@ -12,18 +12,18 @@ body {
 }
 
 .primary-color {
-  color: #9acac8;
+  color: #51c4c0;
 }
 
 .secondary-color {
-  color: #eba782;
+  color: #d37a4a;
 }
 
 .hero-title {
   font-size: 60px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  border-left: 5px solid #e6cdc0;
+  border-left: 5px solid #d37a4a;
   padding-left: 2%;
 }
 
@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  background-color: #eba782;
+  background-color: #d37a4a;
 }
 
 .margin-overlap {
@@ -111,6 +111,10 @@ body {
 }
 
 .design-section {
+  background-image: url(images/shapes/shape-1.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   padding-bottom: 10%;
 }
 
@@ -121,6 +125,10 @@ body {
 .design-item-2 {
   width: 60%;
   padding-left: 8%;
+  background-image: url(images/shapes/shape-1.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
 }
 
 .design-item-1 img {
@@ -129,6 +137,10 @@ body {
 }
 
 .design-content {
+  background-image: url(images/shapes/shape-1.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -137,8 +149,6 @@ body {
 
 .photography-section {
   padding-bottom: 10%;
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .photography-item-2 {
@@ -181,15 +191,41 @@ footer h1 {
   padding: 0 10% 5%;
 }
 
-.iinput {
+.input-field {
   width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
 }
-.bbutton {
+.submit-button {
   width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: #d37a4a;
   box-sizing: border-box;
+}
+
+.work-sample-section {
+  padding-bottom: 8%;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 32%;
+  max-width: 32%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: auto;
+  width: 100%;
+  border-radius: 20px;
 }
